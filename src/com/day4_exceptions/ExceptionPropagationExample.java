@@ -13,7 +13,7 @@ public class ExceptionPropagationExample {
     public static void main(String[] args) {
         try {
             //calling method 2
-            method2();cd
+            method2();
         } catch (ArithmeticException e) {
             System.out.println("Handled exception in main");
         }
